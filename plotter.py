@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1G1bPUdP9PFu9zYCQrGabtR7AL_sR4Hml
 """
 import matplotlib.pyplot as plt
-
+X_train,X_test,y_train,y_test= None,None,None,None
 def plotter_3d(D_train=X_train,D_test=X_test,
             y_train=y_train,y_test=y_test,
             predictions=None):
