@@ -24,5 +24,5 @@ def plotter(D_train=X_train,D_test=X_test,
   plt.scatter(D_train,y_train.squeeze(),c='b')
   plt.scatter(D_test,y_test.squeeze(),c='g')
   if predictions is not None:
-    plt.scatter(D_test[:,0],D_test[:,1],predictions.squeeze(),c='p')
+    plt.scatter(D_test,predictions.squeeze(),c='p')
   plt.show()
